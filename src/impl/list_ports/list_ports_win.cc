@@ -1,5 +1,7 @@
 #if defined(_WIN32)
 
+#pragma comment(lib, "setupapi.lib")
+
 /*
  * Copyright (c) 2014 Craig Lilley <cralilley@gmail.com>
  * This software is made available under the terms of the MIT licence.
@@ -7,7 +9,7 @@
  * http://opensource.org/licenses/MIT
  */
 
-#include "serial/serial.h"
+#include "../../serial/serial.h"
 #include <tchar.h>
 #include <windows.h>
 #include <setupapi.h>
